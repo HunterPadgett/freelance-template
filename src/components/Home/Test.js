@@ -4,10 +4,10 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Our Firm', href: '#' },
+  { name: 'Attorneys', href: '#' },
+  { name: 'History', href: '#' },
+  { name: 'Contact', href: '#' },
 ]
 
 const TestData = () => {
@@ -52,9 +52,6 @@ const TestData = () => {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                    Log in
-                  </a>
                 </div>
               </nav>
             </div>
@@ -99,12 +96,6 @@ const TestData = () => {
                       </a>
                     ))}
                   </div>
-                  <a
-                    href="#"
-                    className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
-                  >
-                    Log in
-                  </a>
                 </div>
               </Popover.Panel>
             </Transition>
