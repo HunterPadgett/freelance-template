@@ -1,0 +1,10 @@
+.text-teal-400 {
+  color: rgb(20 184 166);
+}
+.bg-teal-500:hover {
+  background-color: teal;
+}
+
+.linkHoverFooter:hover {
+  color: rgb(20 184 166);
+}
