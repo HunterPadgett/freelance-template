@@ -55,5 +55,6 @@
 /* Attorneys */
 
 .profpic {
-    height: 180px
+    height: 180px;
+    scale: 1.0;
 }
