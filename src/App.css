@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 
 * {
-    font-family: 'Sora', sans-serif;
+    font-family: 'GFS Didot', serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* background-color: #1f2833; */
-    /* color:#fff; */
+    /* color:#fff */
     
 
 }
@@ -17,26 +17,26 @@
 
 /* HOME STYLING */
 
-
+.homePage {
+    height: 100vh;
+    /* background: url("./assets/bgHome.jpg"); */
+    background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+    
+}
 
 
 /* ABOUT STYLING */
 
-.aboutIcon {
-    padding-bottom: 10px;;
-    padding-top: 10px;
-    height: 60px;
-    color: #45a29e;
-    margin: 0 auto;
-    animation: wiggle 5s linear infinite
-    
-}
 
-@keyframes wiggle{
-    100%{transform:translateX(-1px)}
-    50%{transform:translateX(2px)}
-    0%{transform:translateX(-1px)}
-}
 
 .aboutp {
     display: flex;

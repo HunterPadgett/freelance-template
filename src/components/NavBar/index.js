@@ -7,6 +7,7 @@ import {
   NavMenu,
   NavbarContainer,
 } from "./NavbarElements";
+import Logo from '../../assets/MCCLogo.png'
 
 
 const Navbar = ({ toggle }) => {
@@ -15,7 +16,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLink className="text-uppercase" to="/">
-            <h1>LOGO</h1>
+            <img src={Logo}/>
           </NavLink>
           <MobileIcon onClick={toggle}>
             <FaBars />
