@@ -10,13 +10,13 @@ const Attorneys = () => {
       <div className="container   ">
         <div className="row d-flex justify-content-between">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <Link to="/TJM" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
                 class="rounded-t-lg"
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                 alt=""
               />
-            </a>
+            </Link>
             <div class="p-6">
               <h5 class="text-gray-900 text-xl font-medium mb-2">
                 Thomas J. Mahoney III
@@ -25,13 +25,13 @@ const Attorneys = () => {
             </div>
           </div>
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+          <Link to="/JHC" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
                 class="rounded-t-lg"
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                 alt=""
               />
-            </a>
+            </Link>
             <div class="p-6">
               <h5 class="text-gray-900 text-xl font-medium mb-2">
                 James H. Coursey
@@ -48,7 +48,7 @@ const Attorneys = () => {
         <h1>Associates</h1>
         <div className="container">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Link href="" data-mdb-ripple="true" data-mdb-ripple-color="light">
+          <Link to="/BDS" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
                 class="rounded-t-lg"
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
