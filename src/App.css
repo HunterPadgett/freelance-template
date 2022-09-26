@@ -11,6 +11,12 @@
 
 }
 
+@media screen and (max-width: 540px) {
+    #navLogo {
+        top: 1rem;
+    }
+}
+
 .avatar {
     height: 90px;
 }

@@ -17,6 +17,19 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     transition: 0.8 all ease
   }
+
+  @media screen and (max-width: 540px) {
+    background: #ffffff;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 1rem;
+  position: sticky;
+  top: 10;
+  z-index: 20;
+    
+  }
 `
 
 export const NavbarContainer = styled.div `
@@ -41,8 +54,14 @@ export const NavLink = styled(Link)`
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
-  @media screen and (max-width: 907px) {
+  @media screen and (max-width: 1350px) {
     font-size: 1.5rem;
+  }
+  @media screen and (max-width: 1170px) {
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width: 1070px) {
+    font-size: 0.8rem;
   }
   &:hover {
     color: #121212;
@@ -54,7 +73,7 @@ export const NavLink = styled(Link)`
 `
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: 000000;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
