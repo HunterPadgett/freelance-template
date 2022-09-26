@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 export const Nav = styled.nav`
-  background: #1f2833;
+  background: #ffffff;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -32,22 +32,23 @@ max-width: 1600px;
 
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #000000;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   font-size: 2rem;
+  font-weight: bold;
   cursor: pointer;
   @media screen and (max-width: 907px) {
     font-size: 1.5rem;
   }
   &:hover {
-    color: #66fcf1;
+    color: #121212;
   }
   &.active {
-    color: #66fcf1;
+    color: #121212;
 
   }
 `
