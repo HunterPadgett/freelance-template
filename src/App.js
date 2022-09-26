@@ -13,6 +13,7 @@ import OurFirm from './pages/OurFirm'
 import Contact from './pages/Contact'
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'
+import AttorneyHome from './components/AttorneyHome'
 
 export default function App() {
 
@@ -27,7 +28,7 @@ const toggle = () => {
       <Navbar toggle={toggle}/>
           <div>
           <Routes>
-            <Route path="/" element={<Home />} /> 
+            <Route path="/" element={[<Home />, <AttorneyHome />]} /> 
             <Route path="/attorneys" element={<Attorneys />} />
             <Route path="/history" element={<History />} />
             <Route path="/contact" element={<Contact/>} />
