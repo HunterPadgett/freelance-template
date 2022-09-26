@@ -1,4 +1,5 @@
 import React from "react";
+import "../../App.css";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -16,7 +17,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLink className="text-uppercase" to="/">
-            <img src={Logo}/>
+            <img id="navLogo" src={Logo}/>
           </NavLink>
           <MobileIcon onClick={toggle}>
             <FaBars />
