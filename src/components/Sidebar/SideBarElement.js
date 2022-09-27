@@ -8,7 +8,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #1f2833;
+background: #111827;
 display: grid;
 align-items: center;
 bottom: 0;
@@ -33,11 +33,11 @@ outline: none;
 `
 export const SideBarWrapper = styled.div`
 color: #c5cbe3;
-background: #1f2833;
+background: #111827;
 `
 export const SideBarMenu = styled.ul`
 display: grid;
-background: #1f2833;
+background: #111827;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(6, 80px);
 text-align: center;
@@ -49,14 +49,14 @@ text-align: center;
 
 export const SideBarLink = styled(Link)`
 display: flex;
-background: #1f2833;
+background: #111827;
 align-items: center;
 justify-content: center;
 font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
-color: #66fcf1;
+color: #fff;
 cursor: pointer;
 
 &:hover {
