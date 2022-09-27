@@ -9,11 +9,12 @@ import Navbar from './components/NavBar'
 import Home from './pages'
 import History from './pages/History'
 import Attorneys from './pages/Attorneys'
-import OurFirm from './pages/OurFirm'
+import PracticeAreas from './pages/PracticeAreas'
 import Contact from './pages/Contact'
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'
 import AttorneyHome from './components/AttorneyHome'
+import PracticeAreasHome from './components/PracticeAreasHome'
 import TJM from './pages/Attorneys/TJM'
 import JHC from './pages/Attorneys/JHC'
 import BDS from './pages/Attorneys/BDS'
@@ -32,11 +33,11 @@ const toggle = () => {
       <Navbar toggle={toggle}/>
           <div>
           <Routes>
-            <Route path="/" element={[<Home />, <AttorneyHome />]} /> 
+            <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />]} /> 
             <Route path="/attorneys" element={<Attorneys />} />
             <Route path="/history" element={<History />} />
             <Route path="/contact" element={<Contact/>} />
-            <Route path="/ourfirm" element={<OurFirm/>} />
+            <Route path="/practice-areas" element={<PracticeAreas/>} />
             <Route path="/TJM" element={<TJM/>}/>
             <Route path="/JHC" element={<JHC/>}/>
             <Route path="/BDS" element={<BDS/>}/>

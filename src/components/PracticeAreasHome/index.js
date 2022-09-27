@@ -1,35 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./attorneyHome.css";
 
-const AttorneyHome = () => {
+
+const PracticeAreasHome = () => {
   return (
     <div className="grid flex items-center grid-cols-1">
       <div class="container text-center mt-5">
         <h2 className="text-black text-4xl mb-3 md:text-6xl">
-          EXPERIENCED ATTORNEYS
+          A Legal Traditon Since 1935
         </h2>
         <h3 className="text-3xl mb-3 md:text-4xl">
-          A Diverse General Practice
+          Longstanding and Desired Results
         </h3>
         <p className="mb-3">
-          To deliver consistent results, we find that it is crucial to maintain
-          the bonds of trust between attorney and client. We are part of the
-          community, we will continue to be part of the community, and our
-          integrity and duty to our clients shows this commitment.
+          One of Savannah’s oldest and most respected firms, MAHONEY COLE & COURSEY has a history of providing high quality legal solutions for individuals, small businesses and large corporations. Our firm has been winning cases and counseling clients with unsurpassed legal knowledge for eight decades. Providing top corporations in the area as well as individuals with sound advice, iron clad negotiations, and anticipated results; MAHONEY COLE & COURSEY is the choice for your legal needs in Georgia and South Carolina.
         </p>
         <p className="mb-3">
-          We support local initiatives. We act as General Counsel for State and
-          Local business and local academic institutions. We are Judges for city
-          and county municipalities. We are privileged to be designated as SAAG
-          (State Appointed Attorney General) and have served as City and County
-          Attorney.
+           Let us achieve results as we provide continuity rarely found in law firms today. Ours is a family-founded firm, working in the community for three generations.  Whether you are starting a business, closing on a real estate property or home, working on your Estate Plan, or need legal help in Court – our lawyers provide exemplary legal solutions and the outcome you desire
         </p>
         <p className="">
-          We know the pulse of Savannah and the interworking of our local and
-          state government. MAHONEY COLE & COURSEY is well-respected for our
-          history of excellence and because of the intense knowledge brought to
-          every client we serve and to each case we win.
+          We are committed to the community. We will be around when a problem arises and you will be able to hold your head high knowing you have Savannah's best and most respected legal team at your back.
         </p>
       </div>
       <button className="mb-2 mt-2 border-none flex flex-row items-center justify-center">
@@ -101,4 +91,4 @@ const AttorneyHome = () => {
   );
 };
 
-export default AttorneyHome;
+export default PracticeAreasHome;

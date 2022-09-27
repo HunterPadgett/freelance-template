@@ -9,13 +9,13 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon >
             <SideBarWrapper>
                 <SideBarMenu>
-                <SideBarLink to="/attorneys" onClick={toggle}> 
-                    ATTORNEYS
+                <SideBarLink to="/practice-areas" onClick={toggle}> 
+                    PRACTICE AREAS
                 </SideBarLink>
                 __________________
 
-                <SideBarLink to="/ourfirm" onClick={toggle}> 
-                    OUR FIRM
+                <SideBarLink to="/attorneys" onClick={toggle}> 
+                    ATTORNEYS
                 </SideBarLink>
                 __________________
                 

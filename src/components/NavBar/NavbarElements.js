@@ -54,13 +54,16 @@ export const NavLink = styled(Link)`
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
-  @media screen and (max-width: 1350px) {
-    font-size: 1.5rem;
+  @media screen and (max-width: 1500px) {
+    font-size: 1.4rem;
   }
-  @media screen and (max-width: 1170px) {
+  @media screen and (max-width: 1250px) {
     font-size: 1.2rem;
   }
-  @media screen and (max-width: 1070px) {
+  @media screen and (max-width: 1150px) {
+    font-size: 0.9rem;
+  }
+  @media screen and (max-width: 1050px) {
     font-size: 0.8rem;
   }
   &:hover {
