@@ -1,11 +1,11 @@
 
 
-export default function  OurFirm() {
+export default function PracticeAreas() {
 
 
     return (
       <div className='container'>
-<h1>Our Firm</h1>
+<h1>Practice Areas</h1>
       </div>
     );
   }

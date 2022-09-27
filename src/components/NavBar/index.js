@@ -23,11 +23,11 @@ const Navbar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavMenu>
+            <NavLink className="text-uppercase" to="/practice-areas">
+              Practice Areas
+            </NavLink>
             <NavLink className="text-uppercase" to="/attorneys">
               Attorneys
-            </NavLink>
-            <NavLink className="text-uppercase" to="/ourfirm">
-              Our Firm
             </NavLink>
             <NavLink className="text-uppercase" to="/history">
               History
