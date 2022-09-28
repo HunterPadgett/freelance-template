@@ -9,37 +9,27 @@ const AttorneyHome = () => {
         <h2 className="text-black text-4xl mb-3 md:text-6xl">
           EXPERIENCED ATTORNEYS
         </h2>
-        <h3 className="text-3xl mb-3 md:text-4xl">
-          A Diverse General Practice
-        </h3>
-        <p className="mb-3">
+
+        <p className="mb-3 text-lg">
           To deliver consistent results, we find that it is crucial to maintain
           the bonds of trust between attorney and client. We are part of the
           community, we will continue to be part of the community, and our
           integrity and duty to our clients shows this commitment.
         </p>
-        <p className="mb-3">
+        <p className="mb-3 text-lg">
           We support local initiatives. We act as General Counsel for State and
           Local business and local academic institutions. We are Judges for city
           and county municipalities. We are privileged to be designated as SAAG
           (State Appointed Attorney General) and have served as City and County
           Attorney.
         </p>
-        <p className="">
+        <p className="text-lg">
           We know the pulse of Savannah and the interworking of our local and
           state government. MAHONEY COLE & COURSEY is well-respected for our
           history of excellence and because of the intense knowledge brought to
           every client we serve and to each case we win.
         </p>
       </div>
-      <button className="mb-2 mt-2 border-none flex flex-row items-center justify-center">
-        <a
-          href="/Attorneys"
-          className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg md:w1/5 lg:w-1/6"
-        >
-          Meet Our Team
-        </a>
-      </button>
 
       <div class="container mt-4">
         <div class="row">
@@ -97,6 +87,14 @@ const AttorneyHome = () => {
           </div>
         </div>
       </div>
+      <button className="mb-2 mt-2 border-none flex flex-row items-center justify-center">
+        <a
+          href="/Attorneys"
+          className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg md:w1/5 lg:w-1/6"
+        >
+          Meet Our Team
+        </a>
+      </button>
     </div>
   );
 };
