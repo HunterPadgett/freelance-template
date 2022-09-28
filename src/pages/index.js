@@ -149,7 +149,7 @@ export default function Home() {
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
             src={background}
-            alt=""
+            alt="Savannah, GA"
           />
         </div>
       </div>

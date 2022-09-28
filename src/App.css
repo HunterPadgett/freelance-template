@@ -64,3 +64,34 @@
     height: 180px;
     scale: 1.0;
 }
+
+/* Profile stlying */
+
+.name {
+    background-color: #111827;
+    color: #fff;
+    height: 190px;
+}
+/* 
+.profpic {
+    position:absolute;
+    top:20vh;
+    left: 15vw;
+    
+} */
+
+
+.profile {
+    position:relative;
+
+}
+
+.scrollable {
+    overflow-y: scroll;
+    max-height:500px;
+    /* height: 50%;  */
+    height: 600px;
+    width: 60%;
+    right: 40px;
+    
+}	
