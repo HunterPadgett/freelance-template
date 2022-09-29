@@ -15,6 +15,7 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'
 import AttorneyHome from './components/AttorneyHome'
 import PracticeAreasHome from './components/PracticeAreasHome'
+import HistoryHome from './components/HistoryHome'
 import TJM from './pages/Attorneys/TJM'
 import JHC from './pages/Attorneys/JHC'
 import BDS from './pages/Attorneys/BDS'
@@ -33,7 +34,7 @@ const toggle = () => {
       <Navbar toggle={toggle}/>
           <div>
           <Routes>
-            <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />]} /> 
+            <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />, <HistoryHome />]} /> 
             <Route path="/attorneys" element={<Attorneys />} />
             <Route path="/history" element={<History />} />
             <Route path="/contact" element={<Contact/>} />

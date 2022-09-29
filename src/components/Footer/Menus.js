@@ -3,10 +3,9 @@ export const ABOUT = [
   { name: "About Us", link: "#" },
 ];
 export const SERVICES = [
-  { name: "Example Link", link: "#" },
-  { name: "Use cases", link: "#" },
+  { name: "Our Team", link: "/attorneys" },
+  
 ];
 export const CONTACT = [
-  { name: "Example Link", link: "#" },
-  { name: "How To Reach Us", link: "#" },
+  { name: "Email US", link: "/contact" },
 ];

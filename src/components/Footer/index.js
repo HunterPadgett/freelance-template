@@ -12,13 +12,13 @@ const Footer = () => {
       text-center pt-2 text-gray-400 text-sm pb-8"
       >
         <span>
-          © 2022 *Business Name* All rights reserved <br />
-          Rome, GA |{" "}
+          © 2022 MAHONEY COLE & COURSEY All rights reserved <br />
+          Savannah, GA |{" "}
           <a
             className="linkHoverFooter no-underline text-gray-400 hover:no-underline"
             href="tel:7062325012"
           >
-            706-232-5012
+            912-233-7272
           </a>{" "}
           |{" "}
           <a
