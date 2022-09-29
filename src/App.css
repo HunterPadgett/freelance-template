@@ -1,27 +1,26 @@
-
-
 * {
-    font-family: 'GFS Didot', serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* background-color: #1f2833; */
-    /* color:#fff */
-    
-
+  font-family: "GFS Didot", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #1f2833; */
+  /* color:#fff */
 }
 
+.mainContent {
+    min-height: calc(100vh - 520px);
+}
 
 .avatar {
-    height: 90px;
+  height: 90px;
 }
 
 /* HOME STYLING */
 
 .homePage {
-    height: 100vh;
-    /* background: url("./assets/bgHome.jpg"); */
-    background-size: cover;
+  height: 100vh;
+  /* background: url("./assets/bgHome.jpg"); */
+  background-size: cover;
   position: relative;
   display: flex;
   justify-content: center;
@@ -34,38 +33,34 @@
   color: black;
 }
 
-
 /* ABOUT STYLING */
 
-
-
 .aboutp {
-    display: flex;
-    justify-self: enter;
-    font-size: 1.1rem;
-    color:white;
+  display: flex;
+  justify-self: enter;
+  font-size: 1.1rem;
+  color: white;
 }
-
 
 /* CONTACT STYLING */
 
 .subbtn {
-    background-color: #45a29e;
+  background-color: #45a29e;
 }
 
 /* Attorneys */
 
 .profpic {
-    height: 180px;
-    scale: 1.0;
+  height: 180px;
+  scale: 1;
 }
 
 /* Profile stlying */
 
 .name {
-    background-color: #111827;
-    color: #fff;
-    height: 190px;
+  background-color: #111827;
+  color: #fff;
+  height: 190px;
 }
 /* 
 .profpic {
@@ -75,18 +70,20 @@
     
 } */
 
-
 .profile {
-    position:relative;
-
+  position: relative;
 }
 
 .scrollable {
-    overflow-y: scroll;
-    max-height:500px;
-    /* height: 50%;  */
-    height: 600px;
-    width: 60%;
-    right: 40px;
-    
-}	
+  overflow-y: scroll;
+  max-height: 500px;
+  /* height: 50%;  */
+  height: 600px;
+  width: 60%;
+  right: 40px;
+}
+
+a {
+  /* text-decoration: none; */
+  color: #45a29e;
+}
