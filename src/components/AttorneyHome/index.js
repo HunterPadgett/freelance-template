@@ -33,7 +33,9 @@ const AttorneyHome = () => {
 
       <div class="container mt-4">
         <div class="row">
+        
           <div class="col-xl-3 col-md-6 mb-4 ">
+            <Link to="TJM">
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
               <img
                 src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
@@ -45,8 +47,12 @@ const AttorneyHome = () => {
                 <div class="card-text text-black-50">Team Lead</div>
               </div>
             </div>
+            </Link>
           </div>
+        
+        
           <div class="col-xl-3 col-md-6 mb-4">
+            <Link to="JHC">
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
               <img
                 src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
@@ -58,8 +64,12 @@ const AttorneyHome = () => {
                 <div class="card-text text-black-50">Web Developer</div>
               </div>
             </div>
+            </Link>
           </div>
+          
+          
           <div class="col-xl-3 col-md-6 mb-4">
+            <Link to="BDS">
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
               <img
                 src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
@@ -71,7 +81,9 @@ const AttorneyHome = () => {
                 <div class="card-text text-black-50">Software Tester</div>
               </div>
             </div>
+            </Link>
           </div>
+          
           <div class="col-xl-3 col-md-6 mb-4">
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
               <img
@@ -87,7 +99,7 @@ const AttorneyHome = () => {
           </div>
         </div>
       </div>
-      <button className="mb-2 mt-2 border-none flex flex-row items-center justify-center">
+      <button className="mb-5 mt-2 border-none flex flex-row items-center justify-center">
         <a
           href="/Attorneys"
           className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg md:w1/5 lg:w-1/6"
@@ -95,6 +107,8 @@ const AttorneyHome = () => {
           Meet Our Team
         </a>
       </button>
+
+      <hr class="my-4 mx-auto w-48 h-1 bg-gray-700 rounded border-0 md:my-10 dark:bg-gray-700"/>
     </div>
   );
 };
