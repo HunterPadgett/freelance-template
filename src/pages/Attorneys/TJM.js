@@ -3,22 +3,21 @@ import React from "react";
 const TJM = () => {
   return (
     <div>
-      <div className="name">
-          <h1 className="">Thomas J. Mahoney Jr</h1>
-          <h3 className="">Senior Partner</h3>
+      <div className="name bg ">
+        <h1 className="">Thomas J. Mahoney Jr</h1>
+        <h3 className="">Senior Partner</h3>
+      </div>
+
+      <div className="row align-content-center">
+        <div className="col-md-6 col-12-sm mb-5">
+          <img
+            className="profpic"
+            src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
+            alt=""
+          />
         </div>
-        
-            
-      <div className="container row1 text-center profile">
-      
-          <div className="col-md-6 col-12-sm mb-5">
-          <img className="profpic"
-              src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-              alt=""
-            />
-          </div>
-          <div class="scrollable">
-          <div className="col-md-6 col-12-sm align-self-center">
+        <div className=" bio scrollable col-md-6 col-12-sm">
+          <div className="col-12 align-self-center">
             <h3>Practice Areas</h3>
             <ul>
               <li>Commercial and Residential Real Estate</li>
@@ -28,7 +27,7 @@ const TJM = () => {
               <li>Personal Injury</li>
             </ul>
           </div>
-          <div className="col-6">
+          <div className="col-12">
             <h3>Education</h3>
             <ul>
               <li>Juris Doctor, 1988 – University of Georgia School of Law</li>
@@ -36,7 +35,7 @@ const TJM = () => {
               <li>Class of 1981 – Benedictine Military School</li>
             </ul>
           </div>
-          <div className="col-6 align-self-center justify-self-center">
+          <div className="col-12">
             <h3>Legal Experience</h3>
             <ul>
               <li>Admitted to the State Bar of Georgia in 1988</li>
@@ -44,10 +43,12 @@ const TJM = () => {
               <li>Class of 1981 – Benedictine Military School</li>
               <li>
                 Admitted to practice in the GA Supreme Court, GA Court of
-                Appeals, SC Supreme Court, SC Court of Appeals, U.S. Supreme
-                Court, U.S. Court of Appeals 4th and 11th Circuits, the U.S.
-                District Courts for the Southern District of GA and District of
-                SC
+                Appeals, SC Supreme Court, SC Court of Appeals,
+              </li>
+              <li>
+                U.S. Supreme Court, U.S. Court of Appeals 4th and 11th Circuits,
+                the U.S. District Courts for the Southern District of GA and
+                District of SC
               </li>
               <li>
                 Special Assistant Attorney General (SAAG) Georgia Ports
@@ -61,9 +62,8 @@ const TJM = () => {
               <li>General Counsel, St. Patrick’s Day Parade Committee</li>
             </ul>
           </div>
+        </div>
       </div>
-                    
-                    </div>
     </div>
   );
 };

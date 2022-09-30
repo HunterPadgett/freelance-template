@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const PracticeAreasHome = () => {
   return (
-    <div className="grid flex items-center grid-cols-1 rounded-lg shadow-lg bg-white max-w-fit border-0">
+    <div className="grid flex items-center grid-cols-1 rounded-lg shadow-lg max-w-fit border-0 bgpractice">
       <div class="container text-center mt-5 ">
         <h2 className="text-black  text-4xl mb-3 md:text-6xl">
           A Diverse General Practice
