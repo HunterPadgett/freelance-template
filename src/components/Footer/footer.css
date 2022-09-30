@@ -1,3 +1,10 @@
+footer {
+  position: relative;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+
 .text-teal-400 {
   color: rgb(20 184 166);
 }

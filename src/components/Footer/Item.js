@@ -3,7 +3,7 @@ import React from "react";
 const Item = ({ Links, title }) => {
   return (
     <ul>
-      <h1 className="mb-1 font-semibold text-2xl md:text-4xl">{title}</h1>
+      <h1 className="mb-1 font-semibold text-xl md:text-2xl">{title}</h1>
       {Links.map((link) => (
         <li key={link.name}>
           <a

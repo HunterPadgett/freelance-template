@@ -32,7 +32,7 @@ const toggle = () => {
       <Router>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-          <div>
+          <div className="mainContent">
           <Routes>
             <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />, <HistoryHome />]} /> 
             <Route path="/attorneys" element={<Attorneys />} />
