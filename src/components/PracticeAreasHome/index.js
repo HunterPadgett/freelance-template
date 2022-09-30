@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const PracticeAreasHome = () => {
   return (
-    <div className="grid flex items-center grid-cols-1 rounded-lg shadow-lg bg-white max-w-fit border-0">
+    <div className="grid flex items-center grid-cols-1">
       <div class="container text-center mt-5 ">
         <h2 className="text-black  text-4xl mb-3 md:text-6xl">
           A Diverse General Practice
@@ -38,7 +38,7 @@ const PracticeAreasHome = () => {
         </div>
       </div>
 
-      <div className="mt-3 mb-3 flex-row justify-center items-center text-lg container">
+      <div className="mt-3 mb-3 flex-row justify-center items-center text-lg container ">
         <div className="flex items-center row justify-center">
           <div class="flex justify-center col-xl-4 col-md-4 col-sm-12  ">
             <ul class=" space-y-1 max-w-md list-inside text-black dark:text-gray-400">
