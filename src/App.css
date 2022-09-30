@@ -1,3 +1,4 @@
+
 * {
   font-family: "GFS Didot", serif;
   box-sizing: border-box;
@@ -62,28 +63,43 @@
   color: #fff;
   height: 190px;
 }
-/* 
-.profpic {
-    position:absolute;
-    top:20vh;
-    left: 15vw;
-    
-} */
 
-.profile {
-  position: relative;
+.profpic {
+    
+   right:0;
+
 }
+
 
 .scrollable {
   overflow-y: scroll;
   max-height: 500px;
-  /* height: 50%;  */
   height: 600px;
-  width: 60%;
-  right: 40px;
+  
 }
 
-a {
-  /* text-decoration: none; */
-  color: #45a29e;
+.bgwood {
+background: url('https://www.stockvault.net/data/2021/01/02/282170/preview16.jpg');
+background-size:contain;
+/* opacity: 95%; */
+}
+
+@media screen and (max-width: 992px) {
+  .bgwood {
+    background-image: url('./assets/woodBG.jpg');
+  }
+}
+
+.attorneyhome {
+  background-color: #111827;
+}
+
+.tshadow {
+  text-shadow: 2px 1px #111827;
+}
+
+.bgpractice {
+  background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 11%, 1) 100%);
 }
