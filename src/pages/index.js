@@ -5,26 +5,26 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/MCCLogo.png";
 import background from '../assets/Savannah.jpg'
 
-const navigation = [
-  { name: "Our Firm", href: "#" },
-  { name: "Attorneys", href: "#" },
-  { name: "History", href: "#" },
-  { name: "Contact", href: "#" },
-];
+// const navigation = [
+//   { name: "Our Firm", href: "#" },
+//   { name: "Attorneys", href: "#" },
+//   { name: "History", href: "#" },
+//   { name: "Contact", href: "#" },
+// ];
 
 export default function Home() {
   return (
-   <div className="relative overflow-hidden bg-gray-500">
-        <div className="mx-auto max-w-7xl bg-gray-500">
-          <div className="relative z-10 bg-gray-500 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
+   <div className="relative overflow-hidden bg-gray-900">
+        <div className="mx-auto max-w-7xl bg-gray-900">
+          <div className="relative z-10 bg-gray-900 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
             <svg
-              className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
-              fill="rgb(107 114 128)"
+              className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-gray-100 lg:block"
+              fill="rgb(17 24 39)"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
               aria-hidden="true"
             >
-              <polygon points="50,0 100,0 50,100 0,100 -z-10 bg-gray-500" />
+              <polygon points="50,0 100,0 50,100 0,100 -z-10 bg-gray-900" />
             </svg>
 
             <Popover>
@@ -44,7 +44,7 @@ export default function Home() {
                         />
                       </a>
                       <div className="-mr-2 flex items-center md:hidden">
-                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-900gray-100 hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                           <span className="sr-only">Open main menu</span>
                           <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                         </Popover.Button>
@@ -56,7 +56,7 @@ export default function Home() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="font-medium text-gray-500 hover:text-gray-900"
+                        className="font-medium text-gray-100 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -78,7 +78,7 @@ export default function Home() {
                   focus
                   className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"
                 >
-                  <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
+                  <div className="overflow-hidden rounded-lg bg-gray-900 shadow-md ring-1 ring-black ring-opacity-5">
                     <div className="flex items-center justify-between px-5 pt-4">
                       <div>
                         <img
@@ -88,46 +88,42 @@ export default function Home() {
                         />
                       </div>
                       <div className="-mr-2">
-                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-900gray-100 hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                           <span className="sr-only">Close main menu</span>
                           <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                         </Popover.Button>
                       </div>
                     </div>
-                    <div className="space-y-1 px-2 pt-2 pb-3">
+                    {/* <div className="space-y-1 px-2 pt-2 pb-3">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
                           href={item.href}
-                          className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                          className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-900gray-50 hover:text-gray-900"
                         >
                           {item.name}
                         </a>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                 </Popover.Panel>
               </Transition>
             </Popover>
 
             <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-              <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">Data to enrich your</span>{" "}
-                  <span className="block text-indigo-600 xl:inline">
-                    online business
-                  </span>
+              <div className="text-center lg:text-left">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl md:text-6xl">
+                  <span className="block sm:justify-center xl:inline">A Legal Traditon Since 1935</span>{" "}
+                  
                 </h1>
-                <p className="mt-3 text-base text-gray-900 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                  lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                  fugiat aliqua.
+                <p className="mt-3 text-base text-gray-100 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                  Longstanding and Desired Results
                 </p>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                {/* <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md">
                     <a
                       href="#"
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-gray-900indigo-600 px-8 py-3 text-base font-medium text-gray-100 hover:bg-gray-900indigo-700 md:py-4 md:px-10 md:text-lg"
                     >
                       Get started
                     </a>
@@ -135,12 +131,12 @@ export default function Home() {
                   <div className="sm:mt-0 sm:ml-3">
                     <a
                       href="#"
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-gray-900indigo-600 px-8 py-3 text-base font-medium text-gray-100 hover:bg-gray-900indigo-700 md:py-4 md:px-10 md:text-lg"
                     >
                       Live demo
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </main>
           </div>

@@ -14,7 +14,7 @@ import Logo from '../../assets/MCCLogo.png'
 const Navbar = ({ toggle }) => {
   return (
     <>
-      <Nav>
+      <Nav className="rounded-lg shadow-lg bg-white max-w-fit border-0">
         <NavbarContainer>
           <NavLink className="text-uppercase" to="/">
             <img id="navLogo" src={Logo}/>
