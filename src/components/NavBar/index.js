@@ -8,16 +8,31 @@ import {
   NavMenu,
   NavbarContainer,
 } from "./NavbarElements";
-import Logo from '../../assets/MCCLogo.png'
-
+import thisS from "../../assets/blueLogo.png";
 
 const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav className="rounded-lg shadow-lg bg-white max-w-fit border-0">
         <NavbarContainer>
-          <NavLink className="text-uppercase" to="/">
-            <img id="navLogo" src={Logo}/>
+          <NavLink className="text-uppercase text-decoration-none" to="/">
+          <div className=" h-24 logoEl sm:h-18">
+        <img
+          className="h-20 inline"
+          src={thisS}
+          alt="Logo"
+        ></img>
+        <div className="inline h-20 w-20">
+        <h6 className="inline text-sm mainlogo">
+          <span className="xllogofont">M</span>AHONEY,{" "}
+          <span className="xllogofont">C</span>OLE &{" "}
+          <span className="xllogofont">C</span>OURSEY{" "}
+          <span className="text-xs pclogo">PC</span>
+        </h6>
+        
+        <h6 className="text-xs text-center -mt-8 lineitem sublogo">ATTORNEYS AT LAW</h6>
+        </div>
+      </div>
           </NavLink>
           <MobileIcon onClick={toggle}>
             <FaBars />

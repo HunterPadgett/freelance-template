@@ -45,13 +45,13 @@ max-width: 1600px;
 
 
 export const NavLink = styled(Link)`
-  color: #000000;
+  color: #111827;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   @media screen and (max-width: 1500px) {
@@ -76,12 +76,12 @@ export const NavLink = styled(Link)`
 `
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: 000000;
+  color: 111827;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 5px;
     transform: translate(-100%, 75%);
     font-size: 2rem;
     cursor: pointer;

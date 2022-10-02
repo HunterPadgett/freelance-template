@@ -33,7 +33,7 @@ const AttorneyHome = () => {
 
       <div class="container mt-4">
         <div class="row">
-          <div class="col-xl-3 col-md-6 mb-4 ">
+          <div class="col-xl-4 col-md-6 mb-4 ">
             <Link to="TJM">
               <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
                 <img
@@ -42,14 +42,14 @@ const AttorneyHome = () => {
                   alt="avatar"
                 ></img>
                 <div class="card-body text-center  ">
-                  <h5 class="card-title mb-0">Member One</h5>
-                  <div class="card-text text-black-50">Team Lead</div>
+                  <h6 class="card-title mb-0">Thomas J. Mahoney III</h6>
+                  <div class="card-text text-black-50">Senior Partner</div>
                 </div>
               </div>
             </Link>
           </div>
 
-          <div class="col-xl-3 col-md-6 mb-4">
+          <div class="col-xl-4 col-md-6 mb-4">
             <Link to="JHC">
               <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
                 <img
@@ -58,14 +58,14 @@ const AttorneyHome = () => {
                   alt="avatar"
                 ></img>
                 <div class="card-body text-center ">
-                  <h5 class="card-title mb-0">Member Two</h5>
-                  <div class="card-text text-black-50">Web Developer</div>
+                  <h6 class="card-title mb-0">James H. Coursey</h6>
+                  <div class="card-text text-black-50">Partner</div>
                 </div>
               </div>
             </Link>
           </div>
 
-          <div class="col-xl-3 col-md-6 mb-4">
+          <div class="col-xl-4 col-md-6 mb-4">
             <Link to="BDS">
               <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
                 <img
@@ -74,32 +74,20 @@ const AttorneyHome = () => {
                   alt="avatar"
                 ></img>
                 <div class="card-body text-center  ">
-                  <h5 class="card-title mb-0">Member Three</h5>
-                  <div class="card-text text-black-50">Software Tester</div>
+                  <h6 class="card-title mb-0">Benjamin D. Summerlin</h6>
+                  <div class="card-text text-black-50">Associate</div>
                 </div>
               </div>
             </Link>
           </div>
 
-          <div class="col-xl-3 col-md-6 mb-4">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm border-0">
-              <img
-                src="https://images.unsplash.com/photo-1473700216830-7e08d47f858e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
-                class="card-img-top"
-                alt="avatar"
-              ></img>
-              <div class="card-body text-center ">
-                <h5 class="card-title mb-0">Member Four</h5>
-                <div class="card-text text-black-50">Web Designer</div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
       <button className="mb-5 mt-2 border-none flex flex-row items-center justify-center">
         <a
           href="/Attorneys"
-          className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white hover:bg-white md:py-4 md:px-10 md:text-lg md:w1/5 lg:w-1/6"
+          className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white text-decoration-none hover:bg-blue-900 md:py-4 md:px-10 md:text-lg md:w1/5 lg:w-1/6"
         >
           Meet Our Team
         </a>
