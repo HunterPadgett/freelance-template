@@ -2,16 +2,16 @@
 export default function Contact() {
   return (
     <section className="page-section" id="contact">
-        <h2 className=" text-center text-uppercase  m-auto">Hit me up!</h2>
+        <h2 className=" text-center text-uppercase  m-auto">Email Us</h2>
         <hr/>
-        <div className="container">
+        <div className="container  block">
           <form target="_blank" action="https://formsubmit.co/676eb6ebd07f887811064705af76dfc2" method="POST">
-            <div className="form-group" id="contactForm">
+            <div className="form-group columns " id="contactForm">
               <div className="form-row">
-                <div className="col mb-2">
+                <div className="mb-2">
                   <input type="text" name="name" className="form-control" placeholder="Name" required></input>
                 </div>
-                <div className="col mb-2">
+                <div className="mb-2">
                   <input type="email" name="email" className="form-control" placeholder="Email" required></input>
                 </div>
                 <div className="form-group mb-2 text-center">

@@ -84,11 +84,7 @@ background-size:contain;
 /* opacity: 95%; */
 }
 
-@media screen and (max-width: 992px) {
-  .bgwood {
-    background-image: url('./assets/woodBG.jpg');
-  }
-}
+
 
 .attorneyhome {
   background-color: #111827;
@@ -102,4 +98,74 @@ background-size:contain;
   background: hsla(0, 0%, 100%, 1);
 
 background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 11%, 1) 100%);
+}
+
+.mainlogo {
+  font-family: 'Noto Serif', serif;
+  font-weight:bolder;
+  color:#111827;
+  font-size: 1.2rem;
+  
+}
+
+.xllogofont {
+  font-size: 1.8rem;
+}
+
+.sublogo {
+  margin-left:5rem;
+  color:#111827;
+}
+
+.pclogo {
+  font-size: xx-small;
+  font-weight: 100;
+}
+
+.lineitem {
+  overflow: hidden;
+  text-align: center;
+}
+
+.lineitem:before,
+.lineitem:after {
+  background-color: #111827;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width:24%;
+}
+
+.lineitem:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.lineitem:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+@media screen and (max-width: 992px) {
+  .bgwood {
+    background-image: url('./assets/woodBG.jpg');
+
+  }
+
+  .logoEl {
+    width: 23.438rem;
+    margin-left: -50px;
+  }
+
+  .mainlogo {
+    
+    font-size: 1rem;
+    
+  }
+  
+  .xllogofont {
+    font-size: 1.6rem;
+  }
 }
