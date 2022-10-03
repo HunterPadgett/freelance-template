@@ -51,34 +51,7 @@
   background-color: #111827;
 }
 
-/* Attorneys */
 
-.profpic {
-  height: 180px;
-  scale: 1;
-}
-
-/* Profile stlying */
-
-.name {
-  background-color: #111827;
-  color: #fff;
-  height: 9rem;
-}
-
-.profpic {
-    
-   right:0;
-
-}
-
-
-.scrollable {
-  overflow-y: scroll;
-  max-height: 500px;
-  height: 600px;
-  
-}
 
 .bgwood {
 background: url('https://www.stockvault.net/data/2021/01/02/282170/preview16.jpg');
