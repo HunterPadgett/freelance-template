@@ -33,7 +33,7 @@
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  color: black;
+  color: #111827;
 }
 
 /* ABOUT STYLING */
@@ -48,7 +48,7 @@
 /* CONTACT STYLING */
 
 .subbtn {
-  background-color: #45a29e;
+  background-color: #111827;
 }
 
 /* Attorneys */
@@ -148,6 +148,19 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
 .lineitem:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+/* Contact Styling */
+
+.contactHeader {
+  font-size: 3.5rem;
+  
+}
+
+#contact {
+  background: url(./assets/contactgrey.jpg);
+  background-size: cover;
+  margin-bottom: -1rem;
 }
 
 @media screen and (max-width: 992px) {
