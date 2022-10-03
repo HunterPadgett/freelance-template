@@ -1,0 +1,29 @@
+/* Attorneys */
+
+.profpic {
+  height: 256px;
+  width: 348px ;
+}
+
+/* Profile stlying */
+
+.name {
+  background-color: #111827;
+  color: #fff;
+  /* height: 190px; */
+}
+
+
+.scrollable {
+  overflow-y: scroll;
+  max-height: 500px;
+  height: 600px;
+}
+
+/* LG SCREEN PROFILE */
+@media (min-width: 1024px) {
+  .name h1, h3 {
+   position: relative;
+   left: 13rem;
+  }
+}
