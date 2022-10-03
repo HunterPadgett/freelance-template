@@ -158,6 +158,10 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
 }
 
 #contact {
+  padding-bottom: 5rem;
+}
+
+.secondarybg {
   background: url(./assets/contactgrey.jpg);
   background-size: cover;
   margin-bottom: -1rem;
