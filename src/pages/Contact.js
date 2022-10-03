@@ -1,7 +1,7 @@
 
 export default function Contact() {
   return (
-    <section className="page-section justify-center" id="contact">
+    <section className="page-section justify-center secondarybg" id="contact">
         <h2 className=" text-center text-uppercase  pt-5 text-white tshadow contactHeader">Email Us</h2>
         <hr/>
         <div className="container block">
@@ -16,7 +16,7 @@ export default function Contact() {
                 </div>
                 <div className="form-group pb-3 text-center ">
                   <textarea placeholder="Your Message" className="form-control " name="message" rows="10" required></textarea>
-                  <button type="submit" className="btn btn-lg subbtn btn-block  text-white mt-3">Submit Form</button>
+                  <button type="submit" className="btn btn-lg subbtn btn-block hover:bg-blue-900 text-white mt-3">Submit Form</button>
                 </div>
               </div>
             </div>
