@@ -38,7 +38,7 @@ const PracticeAreasHome = () => {
         </div>
       </div>
 
-      <div className="mt-3 mb-3 flex-row justify-center items-center text-lg container">
+      <div className="mt-3 mb-3 flex-row justify-center items-center text-lg container ">
         <div className="flex items-center row justify-center">
           <div class="flex justify-center col-xl-4 col-md-4 col-sm-12  ">
             <ul class=" space-y-1 max-w-md list-inside text-black dark:text-gray-400">

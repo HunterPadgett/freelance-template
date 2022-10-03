@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Navbar from './components/NavBar'
+import TopBtn from './components/TopBtn'
 import Home from './pages'
 import History from './pages/History'
 import Attorneys from './pages/Attorneys'
@@ -32,6 +33,7 @@ const toggle = () => {
       <Router>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
+      <TopBtn />
           <div className="mainContent">
           <Routes>
             <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />, <HistoryHome />]} /> 
