@@ -4,8 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: #1f2833; */
-  /* color:#fff */
+  
+}
+.siteBlue {
+  color:#111827;
 }
 
 .mainContent {
