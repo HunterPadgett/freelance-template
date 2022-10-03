@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import profpic from "../../assets/Profile.jpg";
+
 
 const Attorneys = () => {
   return (

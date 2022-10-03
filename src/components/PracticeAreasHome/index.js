@@ -5,7 +5,7 @@ const PracticeAreasHome = () => {
   return (
     <div className="grid flex items-center grid-cols-1 rounded-lg shadow-lg max-w-fit border-0 bgpractice">
       <div class="container text-center mt-5 ">
-        <h2 className="text-black  text-4xl mb-3 md:text-6xl">
+        <h2 className="text-black  text-4xl mb-3 md:text-6xl ">
           A Diverse General Practice
         </h2>
         <h3 className="text-2xl mb-3 md:text-4xl">
@@ -95,7 +95,7 @@ const PracticeAreasHome = () => {
       <button className="mb-5 mt-2 border-none flex flex-row items-center justify-center">
         <a
           href="/practice-areas"
-          className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white hover:bg-blue-800 md:py-4 md:px-10 md:text-lg md:w1/4 lg:w-1/5"
+          className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white text-decoration-none hover:bg-blue-900 md:py-4 md:px-10 md:text-lg md:w1/4 lg:w-1/5"
         >
           Learn More
         </a>

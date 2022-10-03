@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../App.css";
 
+
 const HistoryHome = () => {
   return (
     <div className="bgwood grid flex items-center grid-cols-1 ">
