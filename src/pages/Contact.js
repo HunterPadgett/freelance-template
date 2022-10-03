@@ -6,8 +6,8 @@ export default function Contact() {
         <hr/>
         <div className="container block">
           <form target="_blank" action="https://formsubmit.co/676eb6ebd07f887811064705af76dfc2" method="POST">
-            <div className="form-group cols-1 " id="contactForm">
-              <div className="form ">
+            <div className="form-group cols-1 place-content-center" id="contactForm">
+              <div className="form w-60">
                 <div className="pb-2">
                   <input type="text" name="name" className="form-control " placeholder="Name" required></input>
                 </div>
