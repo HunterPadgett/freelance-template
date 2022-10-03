@@ -3,12 +3,12 @@ import React from "react";
 const TJM = () => {
   return (
     <div>
-      <div className="name bg ">
-        <h1 className="">Thomas J. Mahoney Jr</h1>
+      <div className="name bg grid-cols-1 center-text">
+        <h2 className="">Thomas J. Mahoney III</h2>
         <h3 className="">Senior Partner</h3>
       </div>
 
-      <div className="row align-content-center">
+      <div className="grid-cols-1 md:grid-cols-2">
         <div className="col-md-6 col-12-sm mb-5">
           <img
             className="profpic"
@@ -17,7 +17,7 @@ const TJM = () => {
           />
         </div>
         <div className=" bio scrollable col-md-6 col-12-sm">
-          <div className="col-12 align-self-center">
+          <div className="col-12">
             <h3>Practice Areas</h3>
             <ul>
               <li>Commercial and Residential Real Estate</li>

@@ -1,5 +1,5 @@
-import thisS from "../assets/blueLogo.png";
-import '../App.css'
+import thisS from "../../assets/blueLogo.png";
+
 
 export default function History() {
   return (
