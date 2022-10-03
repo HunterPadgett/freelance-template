@@ -27,6 +27,7 @@ import MaritimeLaw from './pages/PracticeAreas/MaritimeLaw'
 import SeriousInjury from './pages/PracticeAreas/SeriousInjury'
 import WillsAndEstates from './pages/PracticeAreas/WillsAndEstates'
 import FederalAndStateLaw from './pages/PracticeAreas/FederalAndStateLaw'
+import CustomsLaw from './pages/PracticeAreas/CustomsLaw'
 
 
 export default function App() {
@@ -58,6 +59,7 @@ const toggle = () => {
             <Route path="/SeriousInjury" element={<SeriousInjury/>}/>
             <Route path="/WillsAndEstates" element={<WillsAndEstates/>}/>
             <Route path="/FederalAndStateLaw" element={<FederalAndStateLaw/>}/>
+            <Route path="/CustomsLaw" element={<CustomsLaw/>}/>
 
           </Routes>
           </div>
