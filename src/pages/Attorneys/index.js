@@ -5,9 +5,9 @@ import './Attorneys.css'
 
 const Attorneys = () => {
   return (
+    <div className="secondarybg">
     <div className="container ">
-      <h1>Partners</h1>
-      
+      <h1 className="text-white">Partners</h1>
       <div className="container   ">
         <div className="row d-flex justify-content-between">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
@@ -46,7 +46,7 @@ const Attorneys = () => {
         <hr className="mb-5 mt-5" />
 
 
-        <h1>Associates</h1>
+        <h1 className="text-white">Associates</h1>
         <div className="container">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
           <Link to="/BDS" data-mdb-ripple="true" data-mdb-ripple-color="light">
@@ -66,6 +66,7 @@ const Attorneys = () => {
         </div>
       </div>
       <hr/>
+    </div>
     </div>
   );
 };
