@@ -8,7 +8,7 @@ function TopBtn() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 430) {
+      if (window.scrollY > 230) {
         setUp(true);
       } else {
         setUp(false);
