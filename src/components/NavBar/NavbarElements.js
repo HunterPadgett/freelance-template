@@ -76,7 +76,7 @@ export const NavLink = styled(Link)`
 `
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: 111827;
+  color: #111827;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;

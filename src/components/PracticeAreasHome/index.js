@@ -1,18 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const PracticeAreasHome = () => {
   return (
-    <div className="grid flex items-center grid-cols-1 rounded-lg shadow-lg max-w-fit border-0 bgpractice">
+    <div className="grid flex items-center grid-cols-1 rounded-lg shadow-lg max-w-fit border-0 bgpractice siteBlue">
       <div class="container text-center mt-5 ">
-        <h2 className="text-black  text-4xl mb-3 md:text-6xl ">
+        <h2 className="text-4xl mb-3 md:text-6xl  text-gray-900">
           A Diverse General Practice
         </h2>
-        <h3 className="text-2xl mb-3 md:text-4xl">
+        <h3 className="text-2xl mb-3 md:text-4xl ">
           Covering All of Your Legal Needs
         </h3>
         <div className="">
-          <p className="mb-3 text-lg md:text-xl">
+          <p className="mb-3 text-lg text-gray-900 md:text-xl ">
             One of Savannah’s oldest and most respected firms, MAHONEY COLE &
             COURSEY has a history of providing high quality legal solutions for
             individuals, small businesses and large corporations. Our firm has
@@ -41,7 +40,7 @@ const PracticeAreasHome = () => {
       <div className="mt-3 mb-3 flex-row justify-center items-center text-lg container ">
         <div className="flex items-center row justify-center">
           <div class="flex justify-center col-xl-4 col-md-4 col-sm-12  ">
-            <ul class=" space-y-1 max-w-md list-inside text-black dark:text-gray-400">
+            <ul class=" space-y-1 max-w-md list-inside dark:text-gray-400">
               <li class="">
                 <i class="fa-solid fa-chevron-right"></i>&nbsp; Civil Litigation
               </li>
@@ -58,7 +57,7 @@ const PracticeAreasHome = () => {
             </ul>
           </div>
           <div class="flex justify-center col-xl-4 col-md-4 col-sm-12  ">
-            <ul class="grid-cols-1 space-y-1 max-w-md list-inside text-black dark:text-gray-400">
+            <ul class="grid-cols-1 space-y-1 max-w-md list-inside dark:text-gray-400">
               <li class=" items-center">
                 <i class="fa-solid fa-chevron-right"></i>&nbsp; Serious Injury
               </li>
@@ -75,7 +74,7 @@ const PracticeAreasHome = () => {
             </ul>
           </div>
           <div class="flex justify-center col-xl-4 col-md-4 col-sm-12  ">
-            <ul class="grid-cols-1 space-y-1 max-w-md list-inside text-black dark:text-gray-400">
+            <ul class="grid-cols-1 space-y-1 max-w-md list-inside dark:text-gray-400">
               <li class=" items-center">
                 <i class="fa-solid fa-chevron-right"></i>&nbsp; Local Government
                 Law

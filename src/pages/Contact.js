@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="container  block">
           <form target="_blank" action="https://formsubmit.co/676eb6ebd07f887811064705af76dfc2" method="POST">
             <div className="form-group columns " id="contactForm">
-              <div className="form-row">
+              <div className="form">
                 <div className="mb-2">
                   <input type="text" name="name" className="form-control" placeholder="Name" required></input>
                 </div>
