@@ -1,5 +1,6 @@
-import thisS from "../../assets/blueLogo.png";
-import {Link} from 'react-router-dom'
+// import thisS from "../../assets/blueLogo.png";
+import { Link } from "react-router-dom";
+import '../../App.css'
 
 export default function History() {
   return (
@@ -10,3 +11,5 @@ export default function History() {
     </div>
   );
 }
+
+
