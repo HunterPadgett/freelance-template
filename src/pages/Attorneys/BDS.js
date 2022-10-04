@@ -3,7 +3,7 @@ import "./Attorneys.css";
 
 const BDS = () => {
   return (
-    <div className="">
+    <div className="secondarybg" id="profilePage">
       <div className="name grid grid-cols-1 items-center text-center">
         <h1 className="text-3xl md:text-5xl m-1" id="profileh1">
           Benjamin D. Summerlin
@@ -11,14 +11,14 @@ const BDS = () => {
         <h3 className="text-2xl md:text-4xl m-1">Associate</h3>
       </div>
 
-      <div className="grid grid-cols-1 ">
+      <div className="profileImg grid grid-cols-1 ">
         <img
           class="profpic mx-auto mt-3"
           src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
           alt="sdfsdf"
         />
       </div>
-      <div className="container">
+      <div className="container bg-gray-50 scrollable">
         <div className="grid grid-cols-1 text-center">
           <div className="m-2">
             <h3 className="text-4xl md:text-5xl">Practice Areas</h3>
@@ -77,6 +77,16 @@ const BDS = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="profileBtn grid grid-cols-1 items-center text-center">
+        <button className="mb-4 mt-2 border-none ">
+          <a
+            href="/attorneys"
+            className="rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white text-decoration-none hover:bg-blue-900 md:py-4 md:px-10 md:text-lg md:w1/4 lg:w-1/5"
+          >
+            View all Attorneys
+          </a>
+        </button>
       </div>
     </div>
   );
