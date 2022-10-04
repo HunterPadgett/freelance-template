@@ -2,7 +2,6 @@
   "homepage": "http://HunterPadgett.github.io/freelance-template",
   "name": "freelance-template",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.2",
     "@heroicons/react": "^2.0.11",
