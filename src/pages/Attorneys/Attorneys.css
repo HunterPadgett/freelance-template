@@ -1,8 +1,13 @@
 /* Attorneys */
 
 .profpic {
-  height: 256px;
-  width: 348px ;
+  height: 356px;
+  width: 348px;
+}
+
+#profilePage {
+  overflow-x: hidden;
+  
 }
 
 /* Profile stlying */
@@ -10,20 +15,283 @@
 .name {
   background-color: #111827;
   color: #fff;
-  /* height: 190px; */
 }
 
+/* SCREEN SIZES BELOW 1025 */
 
-.scrollable {
-  overflow-y: scroll;
-  max-height: 500px;
-  height: 600px;
-}
-
-/* LG SCREEN PROFILE */
-@media (min-width: 1024px) {
-  .name h1, h3 {
-   position: relative;
-   left: 13rem;
+@media (max-width: 1024px) {
+  .profileImg {
+    margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 1024px) {
+  .scrollable {
+    margin-bottom: 2rem;
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .profileBtn {
+     margin-bottom: 2rem;
+  }
+}
+
+/* LG SCREEN PROFILE 1025 */
+
+@media (min-width: 1025px) {
+  .name h1,
+  .name h3 {
+    position: relative;
+    left: 11rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .name {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .profileImg {
+    position: relative;
+    left: -20rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .scrollable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    left: 11rem;
+    top: -20rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .profileBtn {
+    position: relative;
+    left: -20rem;
+    top: -24rem;
+  }
+}
+
+/* LG SCREEN PROFILE 1195 */
+
+@media (min-width: 1195px) {
+  .name h1,
+  .name h3 {
+    position: relative;
+    left: 13rem;
+  }
+}
+
+@media (min-width: 1195px) {
+  .name {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1195px) {
+  .profileImg {
+    position: relative;
+    left: -23rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 1195px) {
+  .scrollable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    left: 13rem;
+    top: -20rem;
+  }
+}
+
+@media (min-width: 1195px) {
+  .profileBtn {
+    position: relative;
+    left: -23rem;
+    top: -24rem;
+  }
+}
+
+/* LG SCREEN PROFILE 1350 */
+
+@media (min-width: 1350px) {
+  .name h1,
+  .name h3 {
+    position: relative;
+    left: 18rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .name {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .profileImg {
+    position: relative;
+    left: -26rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .scrollable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    left: 18rem;
+    top: -20rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .profileBtn {
+    position: relative;
+    left: -26rem;
+    top: -24rem;
+  }
+}
+
+/* LG SCREEN PROFILE 1525 */
+
+@media (min-width: 1525px) {
+  .name h1,
+  .name h3 {
+    position: relative;
+    left: 22rem;
+  }
+}
+
+@media (min-width: 1525px) {
+  .name {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1525px) {
+  .profileImg {
+    position: relative;
+    left: -29rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 1525px) {
+  .scrollable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    left: 22rem;
+    top: -20rem;
+  }
+}
+
+@media (min-width: 1525px) {
+  .profileBtn {
+    position: relative;
+    left: -29rem;
+    top: -24rem;
+  }
+}
+
+/* LG SCREEN PROFILE 1700 */
+
+@media (min-width: 1700px) {
+  .name h1,
+  .name h3 {
+    position: relative;
+    left: 27rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  .name {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .profileImg {
+    position: relative;
+    left: -32rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  .scrollable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    left: 27rem;
+    top: -20rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  .profileBtn {
+    position: relative;
+    left: -32rem;
+    top: -24rem;
+  }
+}
+/* LG SCREEN PROFILE 1800 */
+
+@media (min-width: 1800px) {
+  .name h1,
+  .name h3 {
+    position: relative;
+    left: 30rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .name {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .profileImg {
+    position: relative;
+    left: -35rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .scrollable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    left: 30rem;
+    top: -20rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .profileBtn {
+    position: relative;
+    left: -35rem;
+    top: -24rem;
+  }
+}
+
