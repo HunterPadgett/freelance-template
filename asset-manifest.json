@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MahoneyColeCoursey/static/css/main.004175c1.css",
+    "main.js": "/MahoneyColeCoursey/static/js/main.646bb31e.js",
+    "static/media/contactgrey.jpg": "/MahoneyColeCoursey/static/media/contactgrey.8f0f662f223a9eded8ea.jpg",
+    "static/media/woodBG.jpg": "/MahoneyColeCoursey/static/media/woodBG.a0b3d7bf3dbe956bbf99.jpg",
+    "static/media/blueLogo.png": "/MahoneyColeCoursey/static/media/blueLogo.a389ab5ae61e7f4de19d.png",
+    "static/media/Savannah.jpg": "/MahoneyColeCoursey/static/media/Savannah.fba30b26133cb353cb04.jpg",
+    "static/media/MCCLogo.png": "/MahoneyColeCoursey/static/media/MCCLogo.40978c8c40c14bd89a15.png",
+    "index.html": "/MahoneyColeCoursey/index.html",
+    "main.004175c1.css.map": "/MahoneyColeCoursey/static/css/main.004175c1.css.map",
+    "main.646bb31e.js.map": "/MahoneyColeCoursey/static/js/main.646bb31e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.004175c1.css",
+    "static/js/main.646bb31e.js"
+  ]
+}
