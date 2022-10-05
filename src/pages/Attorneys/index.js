@@ -5,7 +5,7 @@ import "./Attorneys.css";
 const Attorneys = () => {
   return (
     <div className="secondarybg">
-      <h1 className="text-white p-3 md:text-6xl flex justify-center">
+      <h1 className="text-white p-3 md:text-5xl flex justify-center">
         Partners
       </h1>
 
@@ -49,7 +49,7 @@ const Attorneys = () => {
       </div>
       <hr className="mb-3 mt-3" />
 
-      <h1 className="text-white p-3 md:text-6xl flex justify-center">
+      <h1 className="text-white p-3 md:text-5xl flex justify-center">
         Associates
       </h1>
       <div className="container mx-auto ">
