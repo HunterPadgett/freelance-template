@@ -10,8 +10,8 @@ const Attorneys = () => {
       </h1>
 
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto mb-1">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs lg:max-w-sm mx-auto mb-1">
             <Link to="/TJM">
               <img
                 class=""
@@ -28,7 +28,7 @@ const Attorneys = () => {
               </p>
             </div>
           </div>
-          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto mb-1">
+          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs lg:max-w-sm  mx-auto mb-1">
             <Link to="/JHC">
               <img
                 class=""
@@ -54,7 +54,7 @@ const Attorneys = () => {
       </h1>
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 pb-5">
-          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto">
+          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto lg:max-w-sm ">
             <Link to="/BDS">
               <img
                 class=""
