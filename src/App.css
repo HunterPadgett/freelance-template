@@ -137,6 +137,16 @@
 }
 
 @media screen and (max-width: 992px) {
+  .secondarybg {
+    background: url(./assets/contactgrey.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 992px) {
   .bgwood {
     background-image: url("./assets/woodBG.jpg");
   }
