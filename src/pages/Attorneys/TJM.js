@@ -8,7 +8,7 @@ const TJM = () => {
         <h1 className="text-3xl md:text-5xl m-1" id="profileh1">
           Thomas J. Mahoney III
         </h1>
-        <h3 className="text-2xl md:text-4xl m-1">Senior Partner</h3>
+        <h3 className="text-xl md:text-4xl m-1">Senior Partner</h3>
       </div>
 
       <div className="profileImg grid grid-cols-1 ">
@@ -21,7 +21,8 @@ const TJM = () => {
       <div className="container bg-gray-50 scrollable">
         <div className="grid grid-cols-1 text-center">
           <div className="m-2">
-            <h3 className="text-4xl md:text-5xl">Practice Areas</h3>
+            <h3 className="text-2xl md:text-3xl">Practice Areas</h3>
+            <hr class=" mx-auto w-36 m:w-48 h-0.5 bg-gray-900 rounded border-0  dark:bg-gray-900"></hr>
             <ul className="md:text-lg">
               <li>Commercial and Residential Real Estate</li>
               <li>Business and Corporate Law</li>
@@ -31,7 +32,8 @@ const TJM = () => {
             </ul>
           </div>
           <div className="m-2">
-            <h3 className="text-4xl md:text-5xl">Education</h3>
+            <h3 className="text-2xl md:text-3xl">Education</h3>
+            <hr class=" mx-auto w-36 m:w-48 h-0.5 bg-gray-900 rounded border-0  dark:bg-gray-900"></hr>
             <ul className="md:text-lg">
               <li>Juris Doctor, 1988 – University of Georgia School of Law</li>
               <li>Bachelor of Arts, 1985 – University of Georgia</li>
@@ -39,7 +41,8 @@ const TJM = () => {
             </ul>
           </div>
           <div className="m-2">
-            <h3 className="text-4xl md:text-5xl">Legal Experience</h3>
+            <h3 className="text-2xl md:text-3xl">Legal Experience</h3>
+            <hr class=" mx-auto w-36 m:w-48 h-0.5 bg-gray-900 rounded border-0  dark:bg-gray-900"></hr>
             <ul className="md:text-lg">
               <li className="m-1">
                 Admitted to the State Bar of Georgia in 1988

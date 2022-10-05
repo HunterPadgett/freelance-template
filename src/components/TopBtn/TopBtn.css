@@ -15,7 +15,7 @@
     color: #f5f5f5;
     position: fixed;
     bottom: 30px;
-    right: 5px;
+    right: 7px;
     height: 35px;
     font-size: 25px;
     cursor: pointer;
@@ -27,8 +27,8 @@
 #upBtn:hover {
   color: #f5f5f5;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 35px;
+  right: 13px;
   height: 50px;
   font-size: 50px;
   transition: 0.3s ease all;
@@ -40,8 +40,8 @@
     color: #f5f5f5;
     position: fixed;
     bottom: 30px;
-    right: 25px;
-    height: 39px;
+    right: 7px;
+    height: 35px;
     font-size: 25px;
     cursor: pointer;
     transition: 0.3s ease all;

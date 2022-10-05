@@ -5,76 +5,71 @@ import "./Attorneys.css";
 const Attorneys = () => {
   return (
     <div className="secondarybg">
-      <div className="container ">
-        <h1 className="text-white">Partners</h1>
-        <div className="container   ">
-          <div className="row d-flex justify-content-between">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <Link
-                to="/TJM"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-              >
-                <img
-                  class="rounded-t-lg"
-                  src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-                  alt=""
-                />
-              </Link>
-              <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
-                  Thomas J. Mahoney III
-                </h5>
-                <p class="text-gray-700 text-base mb-4">Senior Partner</p>
-              </div>
-            </div>
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <Link
-                to="/JHC"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-              >
-                <img
-                  class="rounded-t-lg"
-                  src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-                  alt=""
-                />
-              </Link>
-              <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
-                  James H. Coursey
-                </h5>
-                <p class="text-gray-700 text-base mb-4">Senior Partner</p>
-              </div>
+      <h1 className="text-white p-3 md:text-6xl flex justify-center">
+        Partners
+      </h1>
+
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto mb-1">
+            <Link to="/TJM">
+              <img
+                class=""
+                src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
+                alt=""
+              />
+            </Link>
+            <div class="flex-row">
+              <h5 class="text-gray-900 text-center text-xl font-medium mt-2 mb-2">
+                Thomas J. Mahoney III
+              </h5>
+              <p class="text-gray-900 text-center text-base mb-2">
+                Senior Partner
+              </p>
             </div>
           </div>
-
-          <hr className="mb-5 mt-5" />
-
-          <h1 className="text-white">Associates</h1>
-          <div className="container">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <Link
-                to="/BDS"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-              >
-                <img
-                  class="rounded-t-lg"
-                  src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-                  alt=""
-                />
-              </Link>
-              <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
-                  Benjamin D. Summerlin
-                </h5>
-                <p class="text-gray-700 text-base mb-4">Associate</p>
-              </div>
+          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto mb-1">
+            <Link to="/JHC">
+              <img
+                class=""
+                src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
+                alt=""
+              />
+            </Link>
+            <div class="">
+              <h5 class="text-gray-900 text-center text-xl font-medium mt-2 mb-2">
+                James H. Coursey
+              </h5>
+              <p class="text-gray-900 text-center text-base mb-2">
+                Senior Partner
+              </p>
             </div>
           </div>
         </div>
-        <hr />
+      </div>
+      <hr className="mb-3 mt-3" />
+
+      <h1 className="text-white p-3 md:text-6xl flex justify-center">
+        Associates
+      </h1>
+      <div className="container mx-auto ">
+        <div className="grid grid-cols-1 pb-5">
+          <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs mx-auto">
+            <Link to="/BDS">
+              <img
+                class=""
+                src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
+                alt=""
+              />
+            </Link>
+            <div class="">
+              <h5 class="text-gray-900 text-center text-xl font-medium mt-2 mb-2">
+                Benjamin D. Summerlin
+              </h5>
+              <p class="text-gray-900 text-center text-base mb-2">Associate</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
