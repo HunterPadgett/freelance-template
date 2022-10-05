@@ -9,7 +9,7 @@ const Footer = () => {
       <ItemsContainer />
       <div
         className="grid flex items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-12
-      text-center pt-2 text-gray-400 text-sm pb-8"
+      text-center text-gray-200 text-sm pb-8"
       >
         <span>
           © 2022 MAHONEY COLE & COURSEY All rights reserved <br />
