@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Navbar from './components/NavBar'
 import TopBtn from './components/TopBtn'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages'
 import History from './pages/History'
 import Attorneys from './pages/Attorneys'
@@ -43,25 +44,26 @@ const toggle = () => {
       <Navbar toggle={toggle}/>
       <TopBtn />
           <div className="mainContent">
-          <Routes>
-            <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />, <HistoryHome />]} /> 
-            <Route path="/attorneys" element={<Attorneys />} />
-            <Route path="/history" element={<History />} />
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="/practice-areas" element={<PracticeAreas/>} />
-            <Route path="/TJM" element={<TJM/>}/>
-            <Route path="/JHC" element={<JHC/>}/>
-            <Route path="/BDS" element={<BDS/>}/>
-            <Route path="/RealEstate" element={<RealEstate/>}/>
-            <Route path="/BusinessLaw" element={<BusinessLaw/>}/>
-            <Route path="/CriminalAndCivilLaw" element={<CriminalAndCivilLaw/>}/>
-            <Route path="/MaritimeLaw" element={<MaritimeLaw/>}/>
-            <Route path="/SeriousInjury" element={<SeriousInjury/>}/>
-            <Route path="/WillsAndEstates" element={<WillsAndEstates/>}/>
-            <Route path="/FederalAndStateLaw" element={<FederalAndStateLaw/>}/>
-            <Route path="/CustomsLaw" element={<CustomsLaw/>}/>
-
-          </Routes>
+            <ScrollToTop>
+              <Routes>
+                <Route path="/" element={[<Home />, <PracticeAreasHome />, <AttorneyHome />, <HistoryHome />]} /> 
+                <Route path="/attorneys" element={<Attorneys />} />
+                <Route path="/history" element={<History />} />
+                <Route path="/contact" element={<Contact/>} />
+                <Route path="/practice-areas" element={<PracticeAreas/>} />
+                <Route path="/TJM" element={<TJM/>}/>
+                <Route path="/JHC" element={<JHC/>}/>
+                <Route path="/BDS" element={<BDS/>}/>
+                <Route path="/RealEstate" element={<RealEstate/>}/>
+                <Route path="/BusinessLaw" element={<BusinessLaw/>}/>
+                <Route path="/CriminalAndCivilLaw" element={<CriminalAndCivilLaw/>}/>
+                <Route path="/MaritimeLaw" element={<MaritimeLaw/>}/>
+                <Route path="/SeriousInjury" element={<SeriousInjury/>}/>
+                <Route path="/WillsAndEstates" element={<WillsAndEstates/>}/>
+                <Route path="/FederalAndStateLaw" element={<FederalAndStateLaw/>}/>
+                <Route path="/CustomsLaw" element={<CustomsLaw/>}/>
+              </Routes>
+            </ScrollToTop>
           </div>
         <Footer />
       </Router>

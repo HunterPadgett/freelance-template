@@ -258,7 +258,7 @@
   .name h1,
   .name h3 {
     position: relative;
-    left: 30rem;
+    left: 20rem;
   }
 }
 
@@ -271,7 +271,7 @@
 @media (min-width: 1800px) {
   .profileImg {
     position: relative;
-    left: -35rem;
+    left: -30rem;
     top: -5rem;
   }
 }
@@ -282,7 +282,7 @@
     width: 600px;
     height: 550px;
     position: relative;
-    left: 30rem;
+    left: 20rem;
     top: -20rem;
   }
 }
@@ -290,7 +290,7 @@
 @media (min-width: 1800px) {
   .profileBtn {
     position: relative;
-    left: -35rem;
+    left: -30rem;
     top: -24rem;
   }
 }

@@ -1,17 +1,15 @@
-
 * {
   font-family: "GFS Didot", serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 .siteBlue {
-  color:#111827;
+  color: #111827;
 }
 
 .mainContent {
-    min-height: calc(100vh - 520px);
+  min-height: calc(100vh - 520px);
 }
 
 .avatar {
@@ -51,15 +49,11 @@
   background-color: #111827;
 }
 
-
-
 .bgwood {
-background: url('https://www.stockvault.net/data/2021/01/02/282170/preview16.jpg');
-background-size:contain;
-/* opacity: 95%; */
+  background: url("https://www.stockvault.net/data/2021/01/02/282170/preview16.jpg");
+  background-size: contain;
+  /* opacity: 95%; */
 }
-
-
 
 .attorneyhome {
   background-color: #111827;
@@ -72,15 +66,18 @@ background-size:contain;
 .bgpractice {
   background: hsla(0, 0%, 100%, 1);
 
-background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 11%, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 1) 99.5%,
+    hsla(221, 39%, 11%, 1) 100%
+  );
 }
 
 .mainlogo {
-  font-family: 'Noto Serif', serif;
-  font-weight:bolder;
-  color:#111827;
+  font-family: "Noto Serif", serif;
+  font-weight: bolder;
+  color: #111827;
   font-size: 1.2rem;
-  
 }
 
 .xllogofont {
@@ -88,8 +85,8 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
 }
 
 .sublogo {
-  margin-left:5rem;
-  color:#111827;
+  margin-left: 5rem;
+  color: #111827;
 }
 
 .pclogo {
@@ -110,7 +107,7 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width:24%;
+  width: 24%;
 }
 
 .lineitem:before {
@@ -127,7 +124,6 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
 
 .contactHeader {
   font-size: 3.5rem;
-  
 }
 
 #contact {
@@ -142,8 +138,7 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
 
 @media screen and (max-width: 992px) {
   .bgwood {
-    background-image: url('./assets/woodBG.jpg');
-
+    background-image: url("./assets/woodBG.jpg");
   }
 
   .logoEl {
@@ -152,11 +147,9 @@ background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 99.5%, hsla(221, 39%, 1
   }
 
   .mainlogo {
-    
     font-size: 1rem;
-    
   }
-  
+
   .xllogofont {
     font-size: 1.6rem;
   }
