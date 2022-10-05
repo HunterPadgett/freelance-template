@@ -1,5 +1,5 @@
 import React from "react";
-import "./PracticeAreas.css"
+import "./PracticeAreas.css";
 
 const PracticeAreasHome = () => {
   return (
@@ -38,49 +38,52 @@ const PracticeAreasHome = () => {
         </div>
       </div>
 
-      <div className="mt-3 mb-3 container grid-cols-1 md:text-lg md:grid-cols-3 md:grid ">
-        <ul class="grid justify-center  space-y-1  list-inside dark:text-gray-900" id="badList">
-          <li class="">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Civil Litigation
-          </li>
-          <li class="">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Business Law
-          </li>
-          <li class="">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Will and Estates
-          </li>
-          <li class="">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Insurance Defense
-          </li>
-        </ul>
+      <div className="container">
+        <div className="mt-3 mb-3 grid grid-cols-1 md:text-lg md:grid-cols-3">
+          <ul class="flex-row justify-center mx-auto space-y-1 list-inside dark:text-gray-900 pr-5 md:p-0">
+            <li class="">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Civil Litigation
+            </li>
+            <li class="">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Business Law
+            </li>
+            <li class="">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Will and Estates
+            </li>
+            <li class="">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Insurance Defense
+            </li>
+          </ul>
 
-        <ul class="grid justify-center space-y-1  list-inside dark:text-gray-900">
-          <li class=" ">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Serious Injury
-          </li>
-          <li class=" ">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Real Estate
-          </li>
-          <li class=" ">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Criminal Law
-          </li>
-          <li class=" ">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Business
-            Representation
-          </li>
-        </ul>
+          <ul class="flex-row justify-center mx-auto space-y-1  list-inside dark:text-gray-900">
+            <li class=" ">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Serious Injury
+            </li>
+            <li class=" ">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Real Estate
+            </li>
+            <li class=" ">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Criminal Law
+            </li>
+            <li class=" ">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Business
+              Representation
+            </li>
+          </ul>
 
-        <ul class="grid justify-center space-y-1  list-inside dark:text-gray-900">
-          <li class=" ">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Local Government Law
-          </li>
-          <li class="">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Admirality
-          </li>
-          <li class=" ">
-            <i class="fa-solid fa-chevron-right"></i>&nbsp; Maritime Law
-          </li>
-        </ul>
+          <ul class="flex-row justify-center mx-auto space-y-1  list-inside dark:text-gray-900">
+            <li class=" ">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Local Government
+              Law
+            </li>
+            <li class="">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Admirality
+            </li>
+            <li class=" ">
+              <i class="fa-solid fa-chevron-right"></i>&nbsp; Maritime Law
+            </li>
+          </ul>
+        </div>
       </div>
       <button className="mb-5 mt-2 border-none flex flex-row items-center justify-center">
         <a
