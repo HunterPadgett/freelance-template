@@ -13,9 +13,9 @@ export default function PracticeAreas() {
               
             </Link>
           </div>
-          <div className="rounded-lg shadow-lg  max-w-sm max-h-sm border-0">
+          <div className="rounded-lg shadow-lg border-0">
             <Link to="/BusinessLaw">
-              <img src='https://www.carbonelawyer.com/wp-content/uploads/2015/03/business-lawyer.jpg' className=" max-w-xs max-h-12"></img>
+              <img src='https://www.carbonelawyer.com/wp-content/uploads/2015/03/business-lawyer.jpg' className=" imgSize"></img>
               
             </Link>
           </div>

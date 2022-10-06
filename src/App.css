@@ -135,6 +135,12 @@
   background-size: cover;
 }
 
+/* Practice Areas */
+imgSize {
+  width: 340px;
+  height: 140px;
+}
+
 @media screen and (max-width: 992px) {
   .secondarybg {
     background: url(./assets/contactgrey.jpg) no-repeat center center fixed;
