@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Attorneys.css'
 
 const TJM = () => {
@@ -83,12 +84,12 @@ const TJM = () => {
       </div>
       <div className="profileBtn grid grid-cols-1 items-center text-center">
         <button className="mb-4 mt-2 border-none ">
-          <a
-            href="/attorneys"
+          <Link
+            to="/attorneys"
             className="rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white text-decoration-none hover:bg-blue-900 md:py-4 md:px-10 md:text-lg md:w1/4 lg:w-1/5"
           >
             View all Attorneys
-          </a>
+          </Link>
         </button>
       </div>
     </div>

@@ -85,12 +85,12 @@ const AttorneyHome = () => {
         </div>
       </div>
       <button className="mb-5 mt-4 border-none flex flex-row items-center justify-center">
-        <a
-          href="/Attorneys"
+        <Link
+          to="/attorneys"
           className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white text-decoration-none hover:bg-blue-900 md:py-4 md:px-10 md:text-lg md:w1/5 lg:w-1/6"
         >
           Meet Our Team
-        </a>
+        </Link>
       </button>
 
       {/* <hr class="my-4 mx-auto w-48 h-1 bg-gray-700 rounded border-0 md:my-10 dark:bg-gray-700"/> */}
