@@ -32,6 +32,9 @@ const HistoryHome = () => {
           Attorney for the US Department of Justice to form MAHONEY COLE &
           COURSEY.
         </p>
+        <Link to="/history" className="flex border-none flex-row w-1/2 justify-center rounded-md border border-transparent bg-gray-900 px-8 py-3 text-base font-medium text-white text-decoration-none hover:bg-blue-900 md:py-4 md:px-10 md:text-lg md:w1/4 lg:w-1/5 m-auto">
+        Way back in...
+        </Link>
       </div>
 
       <div className="mt-5 container flex-row ">
