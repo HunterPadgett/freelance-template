@@ -34,7 +34,7 @@ export default function App() {
   };
   return (
     <div>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
         <TopBtn />
