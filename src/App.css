@@ -8,6 +8,10 @@
   color: #111827;
 }
 
+.text-white {
+  color: #f5f5f5 !important
+}
+
 .mainContent {
   min-height: calc(100vh - 520px);
 }
@@ -131,7 +135,10 @@
 }
 
 .secondarybg {
-  background: url(./assets/contactgrey.jpg);
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ), url(./assets/contactgrey.jpg);
   background-size: cover;
 }
 
@@ -143,7 +150,10 @@ imgSize {
 
 @media screen and (max-width: 992px) {
   .secondarybg {
-    background: url(./assets/contactgrey.jpg) no-repeat center center fixed;
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ), url(./assets/contactgrey.jpg) no-repeat center center fixed;
     -webkit-background-size: fixed;
     -moz-background-size: fixed;
     -o-background-size: fixed;
