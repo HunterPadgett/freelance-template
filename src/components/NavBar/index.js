@@ -13,7 +13,7 @@ import thisS from "../../assets/blueLogo.png";
 const Navbar = ({ toggle }) => {
   return (
     <>
-      <Nav className="rounded-lg shadow-lg bg-white max-w-fit border-0">
+      <Nav className="rounded-lg shadow-lg max-w-fit border-0">
         <NavbarContainer>
           <NavLink className="text-uppercase text-decoration-none" to="/">
           <div className=" h-24 logoEl sm:h-18">

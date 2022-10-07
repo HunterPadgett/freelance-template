@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 export const Nav = styled.nav`
-  background: #ffffff;
+  background: #f5f5f5;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@ export const Nav = styled.nav`
   }
 
   @media screen and (max-width: 540px) {
-    background: #ffffff;
+    background: #f5f5f5;
   height: 140px;
   display: flex;
   justify-content: center;
