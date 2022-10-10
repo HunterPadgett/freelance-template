@@ -143,9 +143,16 @@
 }
 
 /* Practice Areas */
-imgSize {
+.imgSize {
   width: 340px;
-  height: 140px;
+  height: 191px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 992px) {
