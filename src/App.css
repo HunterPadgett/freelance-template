@@ -161,9 +161,9 @@
           rgba(0, 0, 0, 0.3), 
           rgba(0, 0, 0, 0.3)
         ), url(./assets/contactgrey.jpg) no-repeat center center fixed;
-    -webkit-background-size: fixed;
-    -moz-background-size: fixed;
-    -o-background-size: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 }
