@@ -16,7 +16,7 @@ import AttorneyHome from "./components/AttorneyHome";
 import PracticeAreasHome from "./components/PracticeAreasHome";
 import HistoryHome from "./components/HistoryHome";
 import TJM from "./pages/Attorneys/TJM";
-import JHC from "./pages/Attorneys/JHC";
+import JLC from "./pages/Attorneys/JLC";
 import BDS from "./pages/Attorneys/BDS";
 import RealEstate from "./pages/PracticeAreas/RealEstate";
 import BusinessLaw from "./pages/PracticeAreas/BusinessLaw";
@@ -55,7 +55,7 @@ export default function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/practice-areas" element={<PracticeAreas />} />
               <Route path="/TJM" element={<TJM />} />
-              <Route path="/JHC" element={<JHC />} />
+              <Route path="/JLC" element={<JLC />} />
               <Route path="/BDS" element={<BDS />} />
               <Route path="/RealEstate" element={<RealEstate />} />
               <Route path="/BusinessLaw" element={<BusinessLaw />} />
