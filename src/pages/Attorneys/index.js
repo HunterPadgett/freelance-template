@@ -29,7 +29,7 @@ const Attorneys = () => {
             </div>
           </div>
           <div class="flex-row justify-center  rounded-lg shadow-lg bg-white max-w-xs lg:max-w-sm  mx-auto mb-1">
-            <Link to="/JHC">
+            <Link to="/JLC">
               <img
                 class=""
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
@@ -38,13 +38,13 @@ const Attorneys = () => {
             </Link>
             <div class="">
               <h5 class="text-gray-900 text-center text-xl font-medium mt-2 mb-2">
-                James H. Coursey
+                James L. Coursey
               </h5>
               <p class="text-gray-900 text-center text-base mb-2">
                 Senior Partner
               </p>
             </div>
-          </div>
+          </div>                                        
         </div>
       </div>
       <hr className="mb-3 mt-3" />
