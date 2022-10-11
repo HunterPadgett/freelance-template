@@ -12,6 +12,7 @@ export default function PracticeAreas() {
               <img
                 className="rounded-sm  imgSize opacity-60"
                 src="https://assets.weforum.org/project/image/cpk1ViuAVr28LDeix3VkGhV7SvT11lq2xkFd3PtgIyE.jpeg"
+                alt="real estate thumbnail"
               ></img>
               <div className="imageOverlay">
                 <h3 className="centered uppercase text-white tshadow">
