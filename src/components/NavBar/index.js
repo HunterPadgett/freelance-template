@@ -24,9 +24,9 @@ const Navbar = ({ toggle }) => {
         ></img>
         <div className="inline h-20 w-20">
         <h6 className="inline text-sm mainlogo">
-          <span className="xllogofont">M</span>AHONEY,{" "}
-          <span className="xllogofont">C</span>OLE &{" "}
-          <span className="xllogofont">C</span>OURSEY{" "}
+          <span className="xllogofont">S</span>MITH,{" "}
+          <span className="xllogofont">j</span>ONES &{" "}
+          <span className="xllogofont">G</span>REENBURG{" "}
           <span className="text-xs pclogo">PC</span>
         </h6>
         
