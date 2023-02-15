@@ -11,7 +11,7 @@ export default function PracticeAreas() {
             <Link to="/RealEstate">
               <img
                 className="rounded-sm  imgSize opacity-60"
-                src="https://assets.weforum.org/project/image/cpk1ViuAVr28LDeix3VkGhV7SvT11lq2xkFd3PtgIyE.jpeg"
+                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&w=1000&q=80"
                 alt="real estate thumbnail"
               ></img>
               <div className="imageOverlay">
@@ -67,8 +67,7 @@ export default function PracticeAreas() {
             <Link to="/CriminalAndCivilLaw">
               <img
                 className="rounded-sm shadow-md imgSize opacity-60"
-                src="https://www.brodenmickelsen.com/wp-content/uploads/2019/05/When-Is-Someone-Incompetent-to-Stand-Trial-Law-Office-of-Broden-Mickelsen-LLP-400x300.jpeg"
-                alt="criminal and cival law thumbnail"
+                src="https://st.depositphotos.com/1806346/2415/i/450/depositphotos_24158867-stock-photo-mans-hands-behind-prison.jpg"
               ></img>
               <div className="imageOverlay">
                 <h3 className="centered uppercase text-white tshadow">
