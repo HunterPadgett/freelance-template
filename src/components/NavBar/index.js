@@ -16,23 +16,21 @@ const Navbar = ({ toggle }) => {
       <Nav className="rounded-lg shadow-lg max-w-fit border-0">
         <NavbarContainer>
           <NavLink className="text-uppercase text-decoration-none" to="/">
-          <div className=" h-24 logoEl sm:h-18">
-        <img
-          className="h-20 inline"
-          src={thisS}
-          alt="Logo"
-        ></img>
-        <div className="inline h-20 w-20">
-        <h6 className="inline text-sm mainlogo">
-          <span className="xllogofont">S</span>MITH,{" "}
-          <span className="xllogofont">j</span>ONES &{" "}
-          <span className="xllogofont">G</span>REENBURG{" "}
-          <span className="text-xs pclogo">PC</span>
-        </h6>
-        
-        <h6 className="text-xs text-center -mt-8 lineitem sublogo">ATTORNEYS AT LAW</h6>
-        </div>
-      </div>
+            <div className=" h-24 logoEl sm:h-18">
+              <img className="h-20 ml-4 inline" src={thisS} alt="Logo"></img>
+              <div className="inline h-20 w-20">
+                <h6 className="inline text-sm mainlogo">
+                  <span className="xllogofont">S</span>MITH,{" "}
+                  <span className="xllogofont">j</span>ONES &{" "}
+                  <span className="xllogofont">G</span>REENBURG{" "}
+                  <span className="text-xs pclogo">PC</span>
+                </h6>
+
+                <h6 className="text-xs text-center -mt-8 lineitem sublogo">
+                  ATTORNEYS AT LAW
+                </h6>
+              </div>
+            </div>
           </NavLink>
           <MobileIcon onClick={toggle}>
             <FaBars />
